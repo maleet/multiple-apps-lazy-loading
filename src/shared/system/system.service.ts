@@ -1,0 +1,11 @@
+import { Injectable } from '@angular/core';
+
+@Injectable()
+export class SystemService {
+
+  constructor() { }
+
+  static getSome() {
+    return 'something else';
+  }
+}

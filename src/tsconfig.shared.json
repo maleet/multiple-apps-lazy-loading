@@ -9,13 +9,12 @@
   "include": [
     "typings.d.ts",
     "polyfills.ts",
-    "main-app-b.ts",
-    "app-b/",
+    "main-shared.ts",
     "shared/"
   ],
   "exclude": [
     "test.ts",
     "**/*.spec.ts",
-    "app-a/"
+    "shared/"
   ]
 }
